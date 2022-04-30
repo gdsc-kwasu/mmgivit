@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <Head>
-        <title>Homepage</title>
+        <title>About page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
