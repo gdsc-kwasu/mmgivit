@@ -1,28 +1,24 @@
-import Link from "next/link";
 import React from "react";
-import { Navbar } from "./style/header.styled";
-
-const NAV_ITEMS = [
-  { name: "Home", path: "/" },
-  { name: "About", path: "/about" },
-];
+import Link from "next/link";
+import { HeaderContainer, IntroContent } from "./style/header.styled";
+import Navbar from "@components/Navbar";
 
 const Header = () => {
   return (
-    <Navbar>
-      <h2>Logo</h2>
-      {NAV_ITEMS.map((items, index) => {
-        return (
-          <ul>
-            <Link href={items.path}>
-              <li className="nav-item" key={index}>
-                {items.name}
-              </li>
-            </Link>
-          </ul>
-        );
-      })}
-    </Navbar>
+    <HeaderContainer>
+      <Navbar />
+      <IntroContent>
+        <div>
+          <h1>Your Donation can Save Someone&#39;s Future</h1>
+          <p>lorem ipsum minim mollit non ullamco est sit aliqua dolor.</p>
+          <Link href="#" passHref>
+            <a>
+              <strong>&gt;</strong> Discover more about us
+            </a>
+          </Link>
+        </div>
+      </IntroContent>
+    </HeaderContainer>
   );
 };
 
