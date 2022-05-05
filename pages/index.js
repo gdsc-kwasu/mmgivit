@@ -9,9 +9,7 @@ export default function Home() {
         <title>MMGIVIT</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout>
-        <h1>Home Page</h1>
-      </Layout>
+      <Layout></Layout>
     </React.Fragment>
   );
 }

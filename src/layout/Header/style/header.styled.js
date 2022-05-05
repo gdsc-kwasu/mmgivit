@@ -63,7 +63,7 @@ export const NavContainer = styled.nav`
   @media (min-width: 765px) {
     width: 92%;
     margin: 0 auto;
-    padding: 50px 0 12px;
+    padding: 30px 0 12px;
   }
 `;
 
