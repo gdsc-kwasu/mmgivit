@@ -29,7 +29,7 @@ export const NavContainer = styled.nav`
     display: flex;
     color: #f6fff0;
     justify-content: space-evenly;
-    margin-left: 3.75rem;
+    margin-left: 3rem;
 
     li {
       list-style: none;

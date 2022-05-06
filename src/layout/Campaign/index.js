@@ -30,10 +30,16 @@ const CAMPAIGN_CONTENTS = [
 const Campaign = () => {
   return (
     <CampaignContainer>
+      <h2 className="heading">Why We Do This Campaign</h2>
+      <p className="description-para">
+        lorem ipsum minim mollit non deserunt ullamco est sit aliqua dolor do
+        amet sint. Velit officia consequa.
+      </p>
       <div className="content">
         {CAMPAIGN_CONTENTS.map((items, index) => (
           <div key={index}>
             <Image
+              className="icons"
               src={items.icon}
               alt={items.alternative}
               width={100}
