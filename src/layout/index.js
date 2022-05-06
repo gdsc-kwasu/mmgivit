@@ -3,6 +3,7 @@ import propTypes from "prop-types";
 import Header from "@layout/Header";
 import MissionSection from "./Mission";
 import Campaign from "./Campaign";
+import VideoSection from "./VideoSection";
 import Footer from "@layout/Footer";
 
 const Layout = ({ children }) => {
@@ -12,6 +13,7 @@ const Layout = ({ children }) => {
       <div className="page-content">
         <MissionSection />
         <Campaign />
+        <VideoSection />
       </div>
       <Footer />
     </React.Fragment>
