@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const MissionContainer = styled.div`
+  text-align: center;
+`;
+
 export const MissionContent = styled.div`
   display: flex;
   align-items: center;
@@ -8,11 +12,9 @@ export const MissionContent = styled.div`
 
   .missions {
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     min-height: 257px;
-    min-width: 228px;
-    max-width: 300px;
-    flex: 1;
+    width: 228px;
     margin: auto;
     text-decoration: underline;
     display: flex;
