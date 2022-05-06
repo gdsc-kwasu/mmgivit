@@ -30,4 +30,28 @@ export const VidContainer = styled.div`
     color: #6d6d6d;
     margin-top: 1.25rem;
   }
+
+  @media (min-width: 600px) {
+    flex-direction: row-reverse;
+    gap: 1rem;
+    margin: 5rem auto;
+
+    .texts {
+      width: 45%;
+      text-align: left;
+    }
+
+    .texts h2 {
+      font-size: 1.75rem;
+    }
+
+    .texts p {
+      font-size: 1.125rem;
+    }
+
+    .video {
+      width: 50%;
+      height: 400px;
+    }
+  }
 `;
