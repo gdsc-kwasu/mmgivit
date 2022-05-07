@@ -5,6 +5,7 @@ export const Article = styled.article`
   flex-wrap: wrap;
   gap: 1.25rem;
   align-items: center;
+  text-align:center;
 
   .article-card {
     background: #f7f7f7;
@@ -27,6 +28,7 @@ export const Article = styled.article`
     color: #44841a;
     background: #d3e0cb;
     padding: 10px;
+    text-align:left;
   }
 
   .article-label:nth-of-type(3) {
@@ -47,4 +49,28 @@ export const Article = styled.article`
     display: block;
     text-decoration: underline;
   }
+
+  @media (min-width: 700px) {
+    text-align:left;
+
+
+    .article-card {
+      width: 30%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    gap: 2.375rem;
+
+    .article-card {
+      margin: 0;
+    }
+.article-image {
+    background:red;
+}
+    .article-title {
+        font-size: 1.25rem;
+        width: 80%;
+        margin: 1.4rem auto;
+      }
 `;
