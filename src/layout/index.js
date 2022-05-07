@@ -4,6 +4,7 @@ import Header from "@layout/Header";
 import MissionSection from "./Mission";
 import Campaign from "./Campaign";
 import VideoSection from "./VideoSection";
+import Work from "./Work";
 import Footer from "@layout/Footer";
 
 const Layout = ({ children }) => {
@@ -14,6 +15,7 @@ const Layout = ({ children }) => {
         <MissionSection />
         <Campaign />
         <VideoSection />
+        <Work />
       </div>
       <Footer />
     </React.Fragment>
