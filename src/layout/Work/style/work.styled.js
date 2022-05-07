@@ -10,14 +10,17 @@ export const Article = styled.article`
     background: #f7f7f7;
     width: 331px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
+    margin: 0 auto;
   }
 
   .article-image {
-    width: 100%;
+    object-fit: cover;
+    display: block !important;
+    // width: 100%;
   }
 
   .article-content {
-    padding: 0.5rem 1.25rem;
+    padding: 1rem 1.25rem;
   }
 
   .article-label {
@@ -26,19 +29,22 @@ export const Article = styled.article`
     padding: 10px;
   }
 
-  .article-label:last-of-type {
+  .article-label:nth-of-type(3) {
     color: #5041d2;
     background: #d6d3f0;
   }
 
   .article-title {
     font-size: 1.125rem;
-    margin: 1.25rem 0;
+    width: 75%;
+    margin: 1.25rem auto;
     text-align: center;
   }
 
-  .article a {
+  a {
     color: #6d6d6d;
+    text-align: right;
+    display: block;
     text-decoration: underline;
   }
 `;

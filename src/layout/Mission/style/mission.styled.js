@@ -38,12 +38,11 @@ export const MissionContent = styled.div`
   }
 
   @media (min-width: 700px) {
-    gap: 2.1875rem;
+    // gap: 2.1875rem;
 
     .missions {
       margin: 0;
       width: 30%;
-      // max-width: 331px;
       max-height: 372px;
     }
   }

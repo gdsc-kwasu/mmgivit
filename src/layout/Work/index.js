@@ -38,15 +38,18 @@ const Work = () => {
       <Article>
         {ARTICLES.map((article, index) => (
           <div key={index} className="article-card">
-            <Image
-              src={article.image}
-              alt="image here"
-              width={100}
-              height={100}
-            />
+            <div className="image-wrapper">
+              <Image
+                className="article-image"
+                src={article.image}
+                alt="image here"
+                width={331}
+                height={191}
+              />
+            </div>
             <div className="article-content">
-              <span className="label">{article.label}</span>
-              <h3 className="title">{article.title}</h3>
+              <span className="article-label">{article.label}</span>
+              <h3 className="article-title">{article.title}</h3>
               <Link href={article.linkPath} passHref>
                 <a>{article.link}</a>
               </Link>
