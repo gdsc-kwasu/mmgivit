@@ -1,7 +1,6 @@
-import React from "react";
-import Link from "next/link";
-import { HeaderContainer, IntroContent } from "./style/header.styled";
-import Navbar from "@components/Navbar";
+import Link from 'next/link'
+import { HeaderContainer, IntroContent } from './style/Header.styled'
+import Navbar from './Navbar'
 
 const Header = () => {
   return (
@@ -19,7 +18,7 @@ const Header = () => {
         </div>
       </IntroContent>
     </HeaderContainer>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

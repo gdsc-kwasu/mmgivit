@@ -1,6 +1,5 @@
-import React from "react";
-import Mission from "@components/Mission";
-import { MissionContainer } from "./style/mission.styled";
+import Mission from '@/components/Mission'
+import { MissionContainer } from './style/Mission.styled'
 
 const MissionSection = () => {
   return (
@@ -12,7 +11,7 @@ const MissionSection = () => {
       </p>
       <Mission />
     </MissionContainer>
-  );
-};
+  )
+}
 
-export default MissionSection;
+export default MissionSection

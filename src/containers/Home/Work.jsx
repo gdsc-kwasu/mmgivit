@@ -1,31 +1,8 @@
-import Image from "next/image";
-import React from "react";
-import Link from "next/link";
-import { Article } from "./style/work.styled";
-
-const ARTICLES = [
-  {
-    image: "/images/article1.png",
-    title: "Primary Education for Less Privilege",
-    label: "Education",
-    link: "See More",
-    linkPath: "#",
-  },
-  {
-    image: "/images/article2.png",
-    title: "Proving Cloth and Food to the Less Privilege",
-    label: "Health",
-    link: "See More",
-    linkPath: "#",
-  },
-  {
-    image: "/images/article3.png",
-    title: "Creating Strong Community",
-    label: "Community",
-    link: "See More",
-    linkPath: "#",
-  },
-];
+import Image from 'next/image'
+import React from 'react'
+import Link from 'next/link'
+import { Article } from './style/Work.styled'
+import { ARTICLES_ITEMS } from '@/utils/constants'
 
 const Work = () => {
   return (
@@ -36,7 +13,7 @@ const Work = () => {
         amet
       </p>
       <Article>
-        {ARTICLES.map((article, index) => (
+        {ARTICLES_ITEMS.map((article, index) => (
           <div key={index} className="article-card">
             <div className="image-wrapper">
               <Image
@@ -58,7 +35,7 @@ const Work = () => {
         ))}
       </Article>
     </div>
-  );
-};
+  )
+}
 
-export default Work;
+export default Work

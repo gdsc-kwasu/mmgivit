@@ -1,16 +1,21 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
-  background: url("/images/header-bg-2.png") center/cover no-repeat;
+  background: url('/images/header-bg-2.png') center/cover no-repeat;
   height: 320px;
   color: #f6fff0;
 
   @media (min-width: 765px) {
-    background: url("/images/header-bg.png") center/cover no-repeat;
+    background: linear-gradient(
+        0deg,
+        rgba(18, 18, 18, 0.6),
+        rgba(18, 18, 18, 0.6)
+      ),
+      url('/images/header-bg.png') center/cover no-repeat;
     height: 703px;
     max-height: 705px;
   }
-`;
+`
 
 export const NavContainer = styled.nav`
   width: 100%;
@@ -65,7 +70,7 @@ export const NavContainer = styled.nav`
     margin: 0 auto;
     padding: 30px 0 12px;
   }
-`;
+`
 
 export const IntroContent = styled.div`
   width: 90%;
@@ -116,4 +121,4 @@ export const IntroContent = styled.div`
       margin: 1.25rem 0 3.75rem;
     }
   }
-`;
+`
