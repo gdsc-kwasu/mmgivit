@@ -1,25 +1,25 @@
-import { useState, useEffect } from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
+import { useState, useEffect } from "react";
+import Image from "next/image";
+import Link from "next/link";
 
-import { NavContainer } from './style/Header.styled'
-import { GiHamburgerMenu } from 'react-icons/gi'
-import { FiSearch } from 'react-icons/fi'
-import { NAV_ITEMS } from '@/utils/constants'
+import { NavContainer } from "./style/Header.styled";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { FiSearch } from "react-icons/fi";
+import { NAV_ITEMS } from "@/utils/constants";
 
 const Navbar = () => {
-  const [screenWidth, setScreenWidth] = useState(0)
+  const [screenWidth, setScreenWidth] = useState(0);
 
   useEffect(() => {
     const changeWidth = () => {
-      setScreenWidth(window.innerWidth)
-    }
+      setScreenWidth(window.innerWidth);
+    };
 
-    window.addEventListener('resize', changeWidth)
+    window.addEventListener("resize", changeWidth);
     return () => {
-      window.removeEventListener('resize', changeWidth)
-    }
-  }, [])
+      window.removeEventListener("resize", changeWidth);
+    };
+  }, []);
 
   return (
     <NavContainer>
@@ -33,7 +33,7 @@ const Navbar = () => {
           />
         </h2>
         {
-          // FIX: Use CSS Media Query
+          // FIX: Use CSS Media Query(Aye aye captain)
         }
         {screenWidth > 600 && (
           <ul>
@@ -47,12 +47,12 @@ const Navbar = () => {
       </div>
 
       <button
-        className={`btn ${screenWidth < 600 ? 'btn-menu' : 'btn-search'}`}
+        className={`btn ${screenWidth < 600 ? "btn-menu" : "btn-search"}`}
       >
         {screenWidth < 600 ? <GiHamburgerMenu className="mm" /> : <FiSearch />}
       </button>
     </NavContainer>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
