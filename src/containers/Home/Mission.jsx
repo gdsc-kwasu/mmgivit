@@ -1,7 +1,7 @@
-import Mission from '@/components/Mission'
-import { MissionContainer } from './style/Mission.styled'
+import MissionSection from "./MissionSection";
+import { MissionContainer } from "./style/Mission.styled";
 
-const MissionSection = () => {
+const Mission = () => {
   return (
     <MissionContainer>
       <h2 className="heading">Mission and Vision</h2>
@@ -9,9 +9,9 @@ const MissionSection = () => {
         lorem ipsum minim mollit non deserunt ullamco est sit aliqua dolor do
         amet
       </p>
-      <Mission />
+      <MissionSection />
     </MissionContainer>
-  )
-}
+  );
+};
 
-export default MissionSection
+export default Mission;
