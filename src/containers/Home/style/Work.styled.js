@@ -5,7 +5,7 @@ export const Article = styled.article`
   flex-wrap: wrap;
   gap: 1.25rem;
   align-items: center;
-  text-align:center;
+  // text-align:center;
 
   .article-card {
     background: #f7f7f7;
@@ -28,7 +28,7 @@ export const Article = styled.article`
     color: #44841a;
     background: #d3e0cb;
     padding: 10px;
-    text-align:left;
+    text-align:left !important;
   }
 
   .article-label:nth-of-type(3) {

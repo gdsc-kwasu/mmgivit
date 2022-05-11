@@ -1,13 +1,12 @@
 import FooterContent from "./FooterContent";
+import FooterNav from "./FooterNav";
 import { FooterContainer } from "./style/Footer.styled";
-
-const DATE = new Date().getFullYear();
 
 const Footer = () => {
   return (
     <FooterContainer>
       <FooterContent />
-      <p>Copyright &copy; {DATE}</p>
+      <FooterNav />
     </FooterContainer>
   );
 };

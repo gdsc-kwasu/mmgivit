@@ -58,3 +58,10 @@ export const ARTICLES_ITEMS = [
     linkPath: "#",
   },
 ];
+
+export const FOOTER_NAV_ITEMS = [
+  { name: "Contact |", path: "/" },
+  { name: "Policy |", path: "/" },
+  { name: "Cookies notice |", path: "/" },
+  { name: "Terms & Condition", path: "/" },
+];
