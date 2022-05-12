@@ -35,21 +35,22 @@ const Navbar = () => {
         {
           // FIX: Use CSS Media Query(Aye aye captain)
         }
-        {screenWidth > 600 && (
-          <ul>
+        {
+          <ul className="nav-container">
             {NAV_ITEMS.map((items, index) => (
               <Link key={index} href={items.path} passHref>
                 <li className="nav-item">{items.name}</li>
               </Link>
             ))}
           </ul>
-        )}
+        }
       </div>
 
-      <button
-        className={`btn ${screenWidth < 600 ? "btn-menu" : "btn-search"}`}
-      >
-        {screenWidth < 600 ? <GiHamburgerMenu className="mm" /> : <FiSearch />}
+      <button className="btn btn-menu">
+        <GiHamburgerMenu className="mm" />
+      </button>
+      <button className="btn btn-search">
+        <FiSearch />
       </button>
     </NavContainer>
   );

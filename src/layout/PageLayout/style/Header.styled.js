@@ -31,16 +31,7 @@ export const NavContainer = styled.nav`
   }
 
   ul {
-    display: flex;
-    color: #f6fff0;
-    justify-content: space-evenly;
-    margin-left: 3rem;
-
-    li {
-      list-style: none;
-      margin-right: 2.5rem;
-      cursor: pointer;
-    }
+    display: none;
   }
 
   .btn {
@@ -54,21 +45,54 @@ export const NavContainer = styled.nav`
     width: 24px;
   }
   .btn-search {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background: #f16e22e5;
-    padding: 14px;
-    width: 47px;
-    height: 47px;
-    font-size: 2.5rem;
+    display: none;
+  }
+
+  @media (min-width: 600px) {
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      margin-left: 3rem;
+      color: #f6fff0;
+
+      li {
+        list-style: none;
+        margin-right: 1rem;
+        cursor: pointer;
+      }
+    }
+
+    .btn-menu {
+      display: none;
+    }
+
+    .btn-search {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: #f16e22e5;
+      padding: 14px;
+      width: 47px;
+      height: 47px;
+      font-size: 2.5rem;
+    }
   }
 
   @media (min-width: 765px) {
     width: 92%;
     margin: 0 auto;
     padding: 30px 0 12px;
+
+    li {
+      margin-right: 2rem !important;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    li {
+      margin-right: 2.5rem !important;
+    }
   }
 `;
 
