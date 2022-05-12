@@ -1,8 +1,8 @@
-import Image from 'next/image'
-import React from 'react'
-import Link from 'next/link'
-import { Article } from './style/Work.styled'
-import { ARTICLES_ITEMS } from '@/utils/constants'
+import Image from "next/image";
+import React from "react";
+import Link from "next/link";
+import { Article } from "./style/Work.styled";
+import { ARTICLES_ITEMS } from "@/utils/constants";
 
 const Work = () => {
   return (
@@ -17,7 +17,6 @@ const Work = () => {
           <div key={index} className="article-card">
             <div className="image-wrapper">
               <Image
-                className="article-image"
                 src={article.image}
                 alt="image here"
                 width={331}
@@ -35,7 +34,7 @@ const Work = () => {
         ))}
       </Article>
     </div>
-  )
-}
+  );
+};
 
-export default Work
+export default Work;

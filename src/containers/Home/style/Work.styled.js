@@ -14,10 +14,13 @@ export const Article = styled.article`
     margin: 0 auto;
   }
 
-  .article-image {
-    object-fit: cover;
+  
+  
+  .image-wrapper span {
     display: block !important;
-    // width: 100%;
+  }
+  .image-wrapper img{
+    object-fit: cover;
   }
 
   .article-content {
