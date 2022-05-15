@@ -53,7 +53,7 @@ const FooterNav = () => {
           />
         </div>
         <div className="logo-title">
-          <h3>mmgvit</h3>
+          <h3>mmgivit</h3>
           <span>Charity initiative</span>
         </div>
       </div>

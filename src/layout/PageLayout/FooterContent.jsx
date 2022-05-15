@@ -6,7 +6,7 @@ const FooterContent = () => {
   return (
     <FooterContentSection>
       <div className="content">
-        <h3>About mmigvit</h3>
+        <h3>About mmgivit</h3>
         <Link href="#" passHref>
           <a>What we believe</a>
         </Link>
