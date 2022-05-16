@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   background: url("/images/header-bg-2.png") center/cover no-repeat;
-  height: 400px;
+  height: 550px;
   color: #f6fff0;
 
   @media (min-width: 765px) {
