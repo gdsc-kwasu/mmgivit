@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const MissionContainer = styled.div`
   text-align: center;
@@ -6,7 +6,7 @@ export const MissionContainer = styled.div`
   @media (min-width: 700px) {
     text-align: left;
   }
-`
+`;
 
 export const MissionContent = styled.div`
   display: flex;
@@ -35,7 +35,7 @@ export const MissionContent = styled.div`
       margin: 0;
     }
   }
-`
+`;
 
 export const MissionContentItem = styled.div`
   background: linear-gradient(
@@ -43,9 +43,9 @@ export const MissionContentItem = styled.div`
       rgba(18, 18, 18, 0.42),
       rgba(18, 18, 18, 0.42)
     ),
-    ${(props) => `url("${props.backgroundImage}")`} center/contain no-repeat;
+    ${(props) => `url("${props.backgroundImage}")`} center/cover no-repeat;
   min-height: 257px;
-  width: 228px;
+  width: 95%;
   margin: auto;
   text-decoration: underline;
   display: flex;
@@ -62,7 +62,7 @@ export const MissionContentItem = styled.div`
   }
 
   &:after {
-    content: '';
+    content: "";
     display: block;
     width: 100%;
     height: 100%;
@@ -101,4 +101,4 @@ export const MissionContentItem = styled.div`
       margin: 0;
     }
   }
-`
+`;
