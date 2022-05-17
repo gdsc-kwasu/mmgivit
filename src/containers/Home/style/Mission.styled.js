@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const MissionContainer = styled.div`
   text-align: center;
+  padding: 50px 0;
 
   @media (min-width: 700px) {
     text-align: left;
@@ -80,6 +81,11 @@ export const MissionContentItem = styled.div`
 
   &:hover:after {
     transform: translate(0, 0);
+    cursor: pointer;
+
+    span {
+      cursor: pointer;
+    }
   }
 
   @media (min-width: 500px) {

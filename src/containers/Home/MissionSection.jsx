@@ -1,6 +1,7 @@
-import Link from 'next/link'
-import { MissionContent, MissionContentItem } from './style/Mission.styled'
-import { MISSION_SECTION_ITEMS } from '@/utils/constants'
+import Link from "next/link";
+import { MissionContent, MissionContentItem } from "./style/Mission.styled";
+import { MISSION_SECTION_ITEMS } from "@/utils/constants";
+import { Fade } from "react-awesome-reveal";
 
 const MissionSection = () => {
   return (
@@ -13,7 +14,7 @@ const MissionSection = () => {
         </Link>
       ))}
     </MissionContent>
-  )
-}
+  );
+};
 
-export default MissionSection
+export default MissionSection;
