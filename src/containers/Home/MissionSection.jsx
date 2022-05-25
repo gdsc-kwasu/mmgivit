@@ -5,8 +5,8 @@ import { Fade } from "react-awesome-reveal";
 
 const MissionSection = () => {
   return (
-    <Fade cascade triggerOnce>
-      <MissionContent>
+    <MissionContent>
+      <Fade cascade triggerOnce direction="up">
         {MISSION_SECTION_ITEMS.map((items, index) => (
           <Link key={index} href="#" passHref>
             <MissionContentItem backgroundImage={items.image}>
@@ -14,8 +14,8 @@ const MissionSection = () => {
             </MissionContentItem>
           </Link>
         ))}
-      </MissionContent>
-    </Fade>
+      </Fade>
+    </MissionContent>
   );
 };
 

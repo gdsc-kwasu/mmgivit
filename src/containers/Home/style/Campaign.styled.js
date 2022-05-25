@@ -15,20 +15,22 @@ export const CampaignContainer = styled.div`
 
   .content-cards {
     width: 100%;
-    border: 1px solid red;
     padding: 0px;
 
     h3,
     p {
-      width: 100px;
-      width: 210px;
-      text-align: center;
-      margin-left: -58px;
+      width: 320px;
+      margin-left: -112px;
     }
 
     h3 {
       font-size: 1.25rem;
       margin-top: 10px;
+    }
+
+    p {
+      height: 140px;
+      line-height: 22px;
     }
 
     a {
@@ -59,6 +61,21 @@ export const CampaignContainer = styled.div`
     .content div {
       width: 30%;
       max-width: 287px;
+    }
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 500px) {
+    .content-cards {
+      h3,
+      p {
+        margin: 0 auto;
+      }
+
+      p {
+        margin-top: 10px;
+        margin-bottom: 14px;
+        height: 100%;
+      }
     }
   }
 `;

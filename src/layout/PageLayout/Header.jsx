@@ -20,8 +20,8 @@ const Header = () => {
                 the society in many ways.
               </p>
             </Fade>
-            <Link href="#" passHref>
-              <a>
+            <Link href="https://web.facebook.com/MMgivit/" passHref>
+              <a href="https://web.facebook.com/MMgivit/" target="__blank">
                 <strong>&gt;</strong> Discover more about us
               </a>
             </Link>

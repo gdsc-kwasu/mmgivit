@@ -16,9 +16,9 @@ const Campaign = () => {
         and/or political considerations.
       </p>
       <div className="content">
-        {CAMPAIGN_CONTENTS_ITEMS.map((items, index) => (
-          <div key={index} className="content-cards">
-            <Fade direction="down">
+        <Fade direction="up" cascade triggerOnce>
+          {CAMPAIGN_CONTENTS_ITEMS.map((items, index) => (
+            <div key={index} className="content-cards">
               <Image
                 className="icons"
                 src={items.icon}
@@ -26,16 +26,14 @@ const Campaign = () => {
                 width={100}
                 height={100}
               />
-            </Fade>
-            <Fade direction="up" cascade triggerOnce>
               <h3>{items.title}</h3>
               <p className="description-para">{items.text}</p>
               <Link href={items.linkPath} passHref>
                 <a>{items.link}</a>
               </Link>
-            </Fade>
-          </div>
-        ))}
+            </div>
+          ))}
+        </Fade>
       </div>
     </CampaignContainer>
   );

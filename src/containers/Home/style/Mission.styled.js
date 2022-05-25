@@ -46,7 +46,7 @@ export const MissionContentItem = styled.div`
     ),
     ${(props) => `url("${props.backgroundImage}")`} center/cover no-repeat;
   min-height: 257px;
-  width: 95%;
+  width: 330px !important;
   margin: auto;
   text-decoration: underline;
   display: flex;

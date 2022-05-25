@@ -3,22 +3,18 @@ import styled from "styled-components";
 export const Article = styled.article`
   display: flex;
   flex-wrap: wrap;
-  gap: 1.25rem;
-  align-items: center;
-  // text-align:center;
+  justify-content: space-between;
 
   .article-card {
     background: #f7f7f7;
-    width: 331px;
+    width: 331px !important;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
-    margin: 0 auto;
   }
-
-  
   
   .image-wrapper span {
     display: block !important;
   }
+
   .image-wrapper img{
     object-fit: cover;
   }
@@ -68,9 +64,11 @@ export const Article = styled.article`
     .article-card {
       margin: 0;
     }
-.article-image {
-    background:red;
-}
+
+    .article-image {
+      background:red;
+    }
+
     .article-title {
         font-size: 1.25rem;
         width: 80%;

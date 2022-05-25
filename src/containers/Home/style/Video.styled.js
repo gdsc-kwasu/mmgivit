@@ -9,12 +9,18 @@ export const VidContainer = styled.div`
   text-align: center;
   margin: 1.5rem auto;
 
-  .video {
-    width: 100%;
-    height: 285px;
+  .video-container {
+    width: 550px;
     color: #fff;
-    background: #f16e22e5;
     font-size: 1.5rem;
+
+    .video {
+      width: 100%;
+      height: 295px;
+      color: #fff;
+      background: #f16e22e5;
+      font-size: 1.5rem;
+    }
   }
 
   h2 {

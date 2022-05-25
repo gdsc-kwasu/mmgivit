@@ -1,22 +1,32 @@
-import { VidContainer } from './style/Video.styled'
+import { VidContainer } from "./style/Video.styled";
+import { Fade } from "react-awesome-reveal";
 
 const VideoSection = () => {
   return (
     <VidContainer>
-      <div className="video">video here</div>
+      <div className="video-container">
+        <Fade direction="right" triggerOnce>
+          <div className="video">video here</div>
+        </Fade>
+      </div>
       <div className="texts">
-        <h2>
-          We have funded over <span>2000+</span> food, projects{' '}
-          <span>400k </span> for people across kwara state{' '}
-        </h2>
-        <p>
-          Lorem minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
-        </p>
+        <Fade cascade triggerOnce>
+          <Fade direction="left">
+            <h2>
+              We redistribute over <span>1000+</span> items annually to the less
+              priviledged.
+            </h2>
+          </Fade>
+          <Fade direction="up">
+            <p>
+              We are talking of items ranging from TVs, Home Theater Sets, Bed
+              Frames, Mattresses, Clothes, Shoes, etc.
+            </p>
+          </Fade>
+        </Fade>
       </div>
     </VidContainer>
-  )
-}
+  );
+};
 
-export default VideoSection
+export default VideoSection;

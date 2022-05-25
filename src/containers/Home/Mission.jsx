@@ -6,10 +6,10 @@ const Mission = () => {
   return (
     <MissionContainer>
       <Fade cascade triggerOnce>
-        <Fade direction="up">
+        <Fade direction="up" triggerOnce>
           <h2 className="heading">Mission and Vision</h2>
         </Fade>
-        <Fade direction="up">
+        <Fade direction="up" triggerOnce>
           <p className="description-para">
             To be Nigeria's foremost charity initiative in promoting charity as
             a tool for the upliftment of the less privileged.
