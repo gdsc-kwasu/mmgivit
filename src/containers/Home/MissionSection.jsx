@@ -5,15 +5,17 @@ import { Fade } from "react-awesome-reveal";
 
 const MissionSection = () => {
   return (
-    <MissionContent>
-      {MISSION_SECTION_ITEMS.map((items, index) => (
-        <Link key={index} href="#" passHref>
-          <MissionContentItem backgroundImage={items.image}>
-            <span>{items.text}</span>
-          </MissionContentItem>
-        </Link>
-      ))}
-    </MissionContent>
+    <Fade cascade triggerOnce>
+      <MissionContent>
+        {MISSION_SECTION_ITEMS.map((items, index) => (
+          <Link key={index} href="#" passHref>
+            <MissionContentItem backgroundImage={items.image}>
+              <span>{items.text}</span>
+            </MissionContentItem>
+          </Link>
+        ))}
+      </MissionContent>
+    </Fade>
   );
 };
 

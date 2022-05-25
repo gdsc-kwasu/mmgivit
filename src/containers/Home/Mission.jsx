@@ -11,8 +11,8 @@ const Mission = () => {
         </Fade>
         <Fade direction="up">
           <p className="description-para">
-            lorem ipsum minim mollit non deserunt ullamco est sit aliqua dolor
-            do amet
+            To be Nigeria's foremost charity initiative in promoting charity as
+            a tool for the upliftment of the less privileged.
           </p>
         </Fade>
       </Fade>

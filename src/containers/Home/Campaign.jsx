@@ -1,36 +1,44 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import { CampaignContainer } from './style/Campaign.styled'
-import { CAMPAIGN_CONTENTS_ITEMS } from '@/utils/constants'
+import Image from "next/image";
+import Link from "next/link";
+import { CampaignContainer } from "./style/Campaign.styled";
+import { CAMPAIGN_CONTENTS_ITEMS } from "@/utils/constants";
+import { Fade } from "react-awesome-reveal";
 
 const Campaign = () => {
   return (
     <CampaignContainer>
-      <h2 className="heading">Why We Do This Campaign</h2>
+      <h2 className="heading">What we do</h2>
       <p className="description-para">
-        lorem ipsum minim mollit non deserunt ullamco est sit aliqua dolor do
-        amet sint. Velit officia consequa.
+        We are dedicated to the entrenchment of the culture of charity as a
+        means of uplifting the less privileged by redistributing wealth,
+        engaging in charity and charitable acts and promoting ideas of giving.
+        sharing and kindness in the society irrespective of religious, ethnic
+        and/or political considerations.
       </p>
       <div className="content">
         {CAMPAIGN_CONTENTS_ITEMS.map((items, index) => (
-          <div key={index}>
-            <Image
-              className="icons"
-              src={items.icon}
-              alt={items.alternative}
-              width={100}
-              height={100}
-            />
-            <h3>{items.title}</h3>
-            <p className="description-para">{items.text}</p>
-            <Link href={items.linkPath} passHref>
-              <a>{items.link}</a>
-            </Link>
+          <div key={index} className="content-cards">
+            <Fade direction="down">
+              <Image
+                className="icons"
+                src={items.icon}
+                alt={items.alternative}
+                width={100}
+                height={100}
+              />
+            </Fade>
+            <Fade direction="up" cascade triggerOnce>
+              <h3>{items.title}</h3>
+              <p className="description-para">{items.text}</p>
+              <Link href={items.linkPath} passHref>
+                <a>{items.link}</a>
+              </Link>
+            </Fade>
           </div>
         ))}
       </div>
     </CampaignContainer>
-  )
-}
+  );
+};
 
-export default Campaign
+export default Campaign;

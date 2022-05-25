@@ -10,11 +10,15 @@ const Header = () => {
       <IntroContent>
         <div>
           <Fade cascade triggerOnce>
-            <Fade direction="down">
+            <Fade direction="down" triggerOnce>
               <h1>Your Donation can Save Someone&#39;s Future</h1>
             </Fade>
-            <Fade direction="up">
-              <p>lorem ipsum minim mollit non ullamco est sit aliqua dolor.</p>
+            <Fade direction="up" triggerOnce>
+              <p>
+                MMGIVIT engages in the redistribution of wealth and promotion of
+                ideas of giving, sharing and kindness to the less privileged in
+                the society in many ways.
+              </p>
             </Fade>
             <Link href="#" passHref>
               <a>
