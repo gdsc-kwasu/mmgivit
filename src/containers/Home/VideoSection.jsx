@@ -11,13 +11,13 @@ const VideoSection = () => {
       </div>
       <div className="texts">
         <Fade cascade triggerOnce>
-          <Fade direction="left">
+          <Fade direction="left" triggerOnce>
             <h2>
               We redistribute over <span>1000+</span> items annually to the less
               priviledged.
             </h2>
           </Fade>
-          <Fade direction="up">
+          <Fade direction="up" triggerOnce>
             <p>
               We are talking of items ranging from TVs, Home Theater Sets, Bed
               Frames, Mattresses, Clothes, Shoes, etc.

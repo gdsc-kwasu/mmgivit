@@ -33,6 +33,13 @@ export const CampaignContainer = styled.div`
       line-height: 22px;
     }
 
+    .action-text {
+      height: 35px;
+      padding: 3px;
+      margin-top: -35px;
+      color: #121212 !important;
+    }
+
     a {
       text-decoration: underline;
       font-weight: 700;
