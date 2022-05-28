@@ -15,25 +15,27 @@ export const MissionContent = styled.div`
   flex-wrap: wrap;
   gap: 1.25rem;
 
-  @media (min-width: 500px) {
-    .missions {
-      background-size: cover;
-      width: 60%;
+  @media only screen and (min-width: 0px) and (max-width: 320px) {
+    div {
+      width: 100%;
     }
   }
 
-  @media (min-width: 700px) {
-    .missions {
-      width: 30%;
-      max-height: 372px;
+  @media only screen and (min-width: 321px) and (max-width: 380px) {
+    div {
+      width: 100%;
     }
   }
 
-  @media (min-width: 1024px) {
-    gap: 2.375rem;
+  @media only screen and (min-width: 381px) and (max-width: 576px) {
+    div {
+      width: 100%;
+    }
+  }
 
-    .missions {
-      margin: 0;
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    div {
+      width: 100%;
     }
   }
 `;
@@ -88,23 +90,20 @@ export const MissionContentItem = styled.div`
     }
   }
 
-  @media (min-width: 500px) {
-    & {
-      background-size: cover;
-      width: 60%;
-    }
+  @media only screen and (min-width: 0px) and (max-width: 320px) {
+    width: 300px !important;
+    margin-left: -6px;
   }
 
-  @media (min-width: 700px) {
-    & {
-      width: 30%;
-      max-height: 372px;
-    }
+  @media only screen and (min-width: 321px) and (max-width: 380px) {
+    width: 100%;
   }
 
-  @media (min-width: 1024px) {
-    & {
-      margin: 0;
-    }
+  @media only screen and (min-width: 381px) and (max-width: 576px) {
+    width: 100% !important;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    width: 100% !important;
   }
 `;

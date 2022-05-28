@@ -5,44 +5,38 @@ export const CampaignContainer = styled.div`
   color: #121212;
   margin: 1.875rem auto;
 
-  .content {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    text-align: center;
+  .campaign-intro {
+    text-align: left;
+
+    p {
+      width: 55%;
+    }
   }
 
-  .content-cards {
-    width: 100%;
-    padding: 0px;
+  .content {
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
 
-    h3,
-    p {
-      width: 320px;
-      margin-left: -112px;
-    }
+    .content-cards {
+      width: 315px;
+      padding: 0px;
+      margin: 20px 0px 18px 18px;
 
-    h3 {
-      font-size: 1.25rem;
-      margin-top: 10px;
-    }
+      p {
+        height: 150px;
+      }
 
-    p {
-      height: 140px;
-      line-height: 22px;
-    }
+      a {
+        text-decoration: underline;
+        font-weight: bold;
+      }
 
-    .action-text {
-      height: 35px;
-      padding: 3px;
-      margin-top: -35px;
-      color: #121212 !important;
-    }
-
-    a {
-      text-decoration: underline;
-      font-weight: 700;
+      :hover {
+        cursor: pointer;
+      }
     }
   }
 
@@ -50,38 +44,111 @@ export const CampaignContainer = styled.div`
     object-fit: contain;
   }
 
-  @media (min-width: 500px) {
-    .content div {
-      width: 70%;
-      margin: auto;
-    }
-  }
+  @media only screen and (min-width: 0px) and (max-width: 320px) {
+    .campaign-intro {
+      text-align: center;
+      width: 100%;
 
-  @media (min-width: 650px) {
-    text-align: left;
-    margin: 3rem auto;
-
-    .description-para {
-      max-width: 550px;
-    }
-
-    .content div {
-      width: 30%;
-      max-width: 287px;
-    }
-  }
-
-  @media only screen and (min-width: 0px) and (max-width: 500px) {
-    .content-cards {
-      h3,
       p {
-        margin: 0 auto;
+        width: 100%;
       }
+    }
+
+    .content {
+      flex-wrap: wrap;
+      width: 100%;
+
+      .content-cards {
+        width: 100%;
+        margin: 15px 0 10px 0;
+
+        p {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 380px) {
+    .campaign-intro {
+      text-align: center;
 
       p {
-        margin-top: 10px;
-        margin-bottom: 14px;
-        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .content {
+      flex-wrap: wrap;
+
+      .content-cards {
+        width: 100%;
+        margin: 15px 0 10px 0;
+
+        p {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 381px) and (max-width: 576px) {
+    .campaign-intro {
+      text-align: center;
+
+      p {
+        width: 100%;
+      }
+    }
+
+    .content {
+      flex-wrap: wrap;
+
+      .content-cards {
+        width: 100%;
+        margin: 15px 0 10px 0;
+
+        p {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 992px) {
+    .campaign-intro {
+      text-align: center;
+
+      p {
+        width: 100%;
+      }
+    }
+
+    .content {
+      flex-wrap: wrap;
+
+      .content-cards {
+        width: 320px;
+        margin: 0 0 0 10px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .campaign-intro {
+      text-align: center;
+
+      p {
+        width: 100%;
+      }
+    }
+
+    .content {
+      flex-wrap: wrap;
+
+      .content-cards {
+        width: 380px;
+        margin: 0 0 0 5px;
       }
     }
   }

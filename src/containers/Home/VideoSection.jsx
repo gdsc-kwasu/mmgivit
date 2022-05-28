@@ -4,11 +4,6 @@ import { Fade } from "react-awesome-reveal";
 const VideoSection = () => {
   return (
     <VidContainer>
-      <div className="video-container">
-        <Fade direction="right" triggerOnce>
-          <div className="video">video here</div>
-        </Fade>
-      </div>
       <div className="texts">
         <Fade cascade triggerOnce>
           <Fade direction="left" triggerOnce>
@@ -23,6 +18,11 @@ const VideoSection = () => {
               Frames, Mattresses, Clothes, Shoes, etc.
             </p>
           </Fade>
+        </Fade>
+      </div>
+      <div className="video-container">
+        <Fade direction="right" triggerOnce>
+          <div className="video">video here</div>
         </Fade>
       </div>
     </VidContainer>

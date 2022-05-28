@@ -51,8 +51,9 @@ export const Article = styled.article`
 
   @media only screen and (min-width: 0px) and (max-width: 320px) {
     .article-card {
+      width: 300px !important;
       margin: 13px 0px 15px 0px;
-      margin-left: -8px !important;
+      margin-left: -5px !important;
     }
   }
 
@@ -71,6 +72,13 @@ export const Article = styled.article`
   @media only screen and (min-width: 576px) and (max-width: 992px) {
     .article-card {
       margin: 0px 0px 40px 0px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .article-card {
+      width: 385px !important;
+      margin: 0px 13px 30px 0px;
     }
   }
 `;
