@@ -38,7 +38,7 @@ export const CAMPAIGN_CONTENTS_ITEMS = [
 export const ARTICLES_ITEMS = [
   {
     image: "/images/article1.png",
-    title: "Primary Education for Less Privilege",
+    title: "Primary Education for the Less Privilege",
     label: "Education",
     link: "See More",
     linkPath: "#",

@@ -10,12 +10,12 @@ export const Article = styled.article`
     width: 331px !important;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
   }
-  
+
   .image-wrapper span {
     display: block !important;
   }
 
-  .image-wrapper img{
+  .image-wrapper img {
     object-fit: cover;
   }
 
@@ -27,7 +27,7 @@ export const Article = styled.article`
     color: #44841a;
     background: #d3e0cb;
     padding: 10px;
-    text-align:left !important;
+    text-align: left !important;
   }
 
   .article-label:nth-of-type(3) {
@@ -49,29 +49,28 @@ export const Article = styled.article`
     text-decoration: underline;
   }
 
-  @media (min-width: 700px) {
-    text-align:left;
-
-
+  @media only screen and (min-width: 0px) and (max-width: 320px) {
     .article-card {
-      width: 30%;
+      margin: 13px 0px 15px 0px;
+      margin-left: -8px !important;
     }
   }
 
-  @media (min-width: 1024px) {
-    gap: 2.375rem;
-
+  @media only screen and (min-width: 321px) and (max-width: 380px) {
     .article-card {
-      margin: 0;
+      margin: 13px -14px 15px 0px;
     }
+  }
 
-    .article-image {
-      background:red;
+  @media only screen and (min-width: 381px) and (max-width: 576px) {
+    .article-card {
+      margin: 13px 25px 15px 25px;
     }
+  }
 
-    .article-title {
-        font-size: 1.25rem;
-        width: 80%;
-        margin: 1.4rem auto;
-      }
+  @media only screen and (min-width: 576px) and (max-width: 992px) {
+    .article-card {
+      margin: 0px 0px 40px 0px;
+    }
+  }
 `;
