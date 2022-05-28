@@ -40,8 +40,8 @@ const FooterNav = () => {
           <span>
             Copyright &copy; {DATE} MMGIVIT International. All rights reserved.
           </span>
-          <p className="gdsc-kwasu" style={{ padding: "10px 0" }}>
-            Built by the{" "}
+          <p className="gdsc-kwasu">
+            Powered by: The{" "}
             <a
               style={{ color: "var(--primary-color)" }}
               href="https://gdsc.community.dev/kwara-state-university/"
@@ -49,7 +49,7 @@ const FooterNav = () => {
             >
               Google Developer Student Clubs
             </a>{" "}
-            chapter at Kwara State University.
+            chapter at Kwara State University & MMGIVIT KWASU
           </p>
         </div>
       </div>

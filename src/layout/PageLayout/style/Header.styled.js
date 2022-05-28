@@ -39,11 +39,13 @@ export const NavContainer = styled.nav`
     color: #f6fff0;
     cursor: pointer;
   }
+
   .btn-menu {
     font-size: 1.5rem;
     background: none;
     width: 24px;
   }
+
   .btn-search {
     display: none;
   }
@@ -116,9 +118,11 @@ export const IntroContent = styled.div`
     width: 65%;
     margin: 10px auto 30px;
   }
+
   a {
     cursor: pointer;
   }
+
   strong {
     display: inline-flex;
     justify-content: center;
@@ -130,19 +134,55 @@ export const IntroContent = styled.div`
     width: 28px;
     height: 28px;
   }
-  @media (min-width: 765px) {
-    width: 86%;
-    height: calc(100% - 120px);
-    text-align: left;
+
+  // @media (min-width: 765px) {
+  //   width: 86%;
+  //   height: calc(100% - 120px);
+  //   text-align: left;
+  //   margin: 0;
+  //   margin-left: auto;
+
+  //   h1 {
+  //     font-size: 3.75rem;
+  //   }
+  //   p {
+  //     font-size: 1.125rem;
+  //     margin: 1.25rem 0 3.75rem;
+  //   }
+  // }
+
+  @media only screen and (min-width: 0px) and (max-width: 576px) {
     margin: 0;
-    margin-left: auto;
+    width: 100%;
+
+    h1,
+    p {
+      width: 100%;
+      padding: 13px 2px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1024px) {
+    margin: 0;
+    padding: 0 185px;
+    width: 100%;
+
+    h1,
+    p {
+      width: 100%;
+      padding: 13px 2px;
+    }
 
     h1 {
-      font-size: 3.75rem;
+      font-size: 60px;
     }
+
     p {
-      font-size: 1.125rem;
-      margin: 1.25rem 0 3.75rem;
+      font-size: 22px;
+    }
+
+    a {
+      font-size: 20px;
     }
   }
 `;

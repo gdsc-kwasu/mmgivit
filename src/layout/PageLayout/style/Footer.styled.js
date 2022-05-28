@@ -88,9 +88,16 @@ export const FooterNavContainer = styled.div`
     margin-right: 0.5rem;
   }
 
-  @media (min-width: 700px) {
+  @media only screen and (min-width: 0px) and (max-width: 768px) {
+    .copyright {
+      .gdsc-kwasu {
+        padding-top: 7px;
+        text-align: left;
+      }
+    }
+
     .logo-wrapper {
-      margin:0;
+      margin: 0;
     }
   }
 `;
