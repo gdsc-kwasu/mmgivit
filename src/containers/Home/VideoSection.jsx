@@ -6,7 +6,7 @@ const VideoSection = () => {
     <VidContainer>
       <div className="texts">
         <Fade cascade triggerOnce>
-          <Fade direction="left" triggerOnce>
+          <Fade direction="up" triggerOnce>
             <h2>
               We redistribute over <span>1000+</span> items annually to the less
               priviledged.
@@ -21,7 +21,7 @@ const VideoSection = () => {
         </Fade>
       </div>
       <div className="video-container">
-        <Fade direction="right" triggerOnce>
+        <Fade direction="up" triggerOnce>
           <div className="video">video here</div>
         </Fade>
       </div>
