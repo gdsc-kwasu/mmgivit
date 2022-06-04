@@ -2,12 +2,11 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@/components/*": ["src/components/*"],
-      "@/layout/*": ["src/layout/*"],
-      "@/containers/*": ["src/containers/*"],
-      "@/styles/*": ["styles/*"],
-      "@/utils/*": ["src/utils/*"]
-
+      "@components/*": ["src/components/*"],
+      "@layout/*": ["src/layout/*"],
+      "@containers/*": ["src/containers/*"],
+      "@styles/*": ["styles/*"],
+      "@utils/*": ["src/utils/*"]
     }
   }
 }

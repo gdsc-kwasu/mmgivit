@@ -8,6 +8,8 @@ export const VidContainer = styled.div`
   gap: 1.25rem;
   text-align: center;
   margin: 1.5rem auto;
+  background: var(--vid-section-overlay);
+  width: 100%;
 
   .video-container {
     width: 500px;

@@ -101,9 +101,8 @@ export const NavContainer = styled.nav`
 export const IntroContent = styled.div`
   width: 90%;
   height: calc(100% - 74px);
-  text-align: center;
+  padding: 200px 0;
   margin: auto;
-  display: flex;
 
   div {
     max-width: 650px;
@@ -111,15 +110,16 @@ export const IntroContent = styled.div`
   }
 
   h1 {
-    font-size: 1.875rem;
+    font-size: 2.895rem;
   }
 
   p {
     width: 65%;
-    margin: 10px auto 30px;
+    padding: 12px 0;
   }
 
   a {
+    padding-top: 6px;
     cursor: pointer;
   }
 
@@ -134,22 +134,6 @@ export const IntroContent = styled.div`
     width: 28px;
     height: 28px;
   }
-
-  // @media (min-width: 765px) {
-  //   width: 86%;
-  //   height: calc(100% - 120px);
-  //   text-align: left;
-  //   margin: 0;
-  //   margin-left: auto;
-
-  //   h1 {
-  //     font-size: 3.75rem;
-  //   }
-  //   p {
-  //     font-size: 1.125rem;
-  //     margin: 1.25rem 0 3.75rem;
-  //   }
-  // }
 
   @media only screen and (min-width: 0px) and (max-width: 576px) {
     margin: 0;

@@ -15,6 +15,7 @@ a {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 /* all global styles should begin from here */
@@ -22,15 +23,26 @@ a {
   height: 100%;
   width: 90%;
   margin: 1rem auto;
+
+  .video-section {
+    width: 1200px !important;
+  }
 }
 
 .heading {
   color: #121212;
   font-size: 1.5rem;
 }
+
 .description-para {
   color: #6d6d6d;
   margin: 0.8rem 0 1.8rem;
+}
+
+.video-section {
+  border: 1px solid red;
+  width: 100%;
+  margin: 0 !important;
 }
 
 @media (min-width: 800px) {
