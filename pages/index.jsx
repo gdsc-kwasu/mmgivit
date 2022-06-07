@@ -1,7 +1,7 @@
-import React from 'react'
-import Head from 'next/head'
-import HomeContainer from '@/containers/Home'
-import PageLayout from '@/layout/PageLayout'
+import React from "react";
+import Head from "next/head";
+import HomeContainer from "@containers/Home";
+import PageLayout from "@layout/PageLayout";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <HomeContainer />
     </React.Fragment>
-  )
+  );
 }
 
-Home.getLayout = (page) => <PageLayout>{page}</PageLayout>
+Home.getLayout = (page) => <PageLayout>{page}</PageLayout>;

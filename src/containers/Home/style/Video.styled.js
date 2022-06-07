@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const VidContainer = styled.div`
+export const VidContainer = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -8,8 +8,6 @@ export const VidContainer = styled.div`
   gap: 1.25rem;
   text-align: center;
   margin: 1.5rem auto;
-  background: var(--vid-section-overlay);
-  width: 100%;
 
   .video-container {
     width: 500px;

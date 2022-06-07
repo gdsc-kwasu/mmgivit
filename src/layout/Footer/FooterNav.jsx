@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FooterNavContainer } from "./style/Footer.styled";
 import Link from "next/link";
 import { ImTwitter, ImFacebook, ImInstagram, ImYoutube } from "react-icons/im";
-import { FOOTER_NAV_ITEMS } from "@/utils/constants";
+import { FOOTER_NAV_ITEMS } from "@utils/constants";
 
 const DATE = new Date().getFullYear();
 

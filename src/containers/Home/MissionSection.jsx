@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { MissionContent, MissionContentItem } from "./style/Mission.styled";
-import { MISSION_SECTION_ITEMS } from "@/utils/constants";
+import { MISSION_SECTION_ITEMS } from "@utils/constants";
 import { Fade } from "react-awesome-reveal";
 
 const MissionSection = () => {

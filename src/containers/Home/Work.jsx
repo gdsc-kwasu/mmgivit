@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import { Article } from "./style/Work.styled";
-import { ARTICLES_ITEMS } from "@/utils/constants";
+import { ARTICLES_ITEMS } from "@utils/constants";
 import { Fade } from "react-awesome-reveal";
 
 const Work = () => {

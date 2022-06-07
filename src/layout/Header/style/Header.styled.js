@@ -30,10 +30,6 @@ export const NavContainer = styled.nav`
     align-items: center;
   }
 
-  ul {
-    display: none;
-  }
-
   .btn {
     border: none;
     color: #f6fff0;
@@ -47,6 +43,10 @@ export const NavContainer = styled.nav`
   }
 
   .btn-search {
+    display: none;
+  }
+
+  ul {
     display: none;
   }
 
@@ -138,11 +138,17 @@ export const IntroContent = styled.div`
   @media only screen and (min-width: 0px) and (max-width: 576px) {
     margin: 0;
     width: 100%;
+    text-align: center;
+    padding: 120px 0;
 
     h1,
     p {
       width: 100%;
       padding: 13px 2px;
+    }
+
+    h1 {
+      font-size: 2.1rem;
     }
   }
 

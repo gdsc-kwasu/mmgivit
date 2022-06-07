@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CampaignContainer } from "./style/Campaign.styled";
-import { CAMPAIGN_CONTENTS_ITEMS } from "@/utils/constants";
+import { CAMPAIGN_CONTENTS_ITEMS } from "@utils/constants";
 import { Fade } from "react-awesome-reveal";
 
 const Campaign = () => {
