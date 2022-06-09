@@ -58,19 +58,17 @@ const FooterContent = () => {
           <a>Donate now</a>
         </Link>
         <Link href="#" passHref>
-          <a>Campaign with us</a>
+          <a>Aid us</a>
         </Link>
-        <Link href="#" passHref>
-          <a>Work with us</a>
-        </Link>
-        <Link href="#" passHref>
-          <a>Take part in MMGIVIT Trailwalker</a>
-        </Link>
-        <Link href="#" passHref>
-          <a>Volunteer with us</a>
-        </Link>
-        <Link href="#" passHref>
-          <a>Join the global movement for change</a>
+        {/* <Link href="https://forms.gle/b1KS8vDcP3yuwhZLA" passHref>
+          <a href="https://forms.gle/b1KS8vDcP3yuwhZLA" target="__blank">
+            Work with us
+          </a>
+        </Link> */}
+        <Link href="https://forms.gle/b1KS8vDcP3yuwhZLA" passHref>
+          <a href="https://forms.gle/b1KS8vDcP3yuwhZLA" target="__blank">
+            Volunteer with us
+          </a>
         </Link>
       </div>
     </FooterContentSection>

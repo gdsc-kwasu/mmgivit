@@ -49,7 +49,7 @@ const FooterNav = () => {
             >
               Google Developer Student Clubs
             </a>{" "}
-            chapter at Kwara State University & MMGIVIT KWASU
+            chapter at Kwara State University & MMGIVIT CYVC KWASU
           </p>
         </div>
       </div>
