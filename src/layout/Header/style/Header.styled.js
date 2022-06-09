@@ -1,16 +1,20 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-  background: url("/images/header-bg-2.png") center/cover no-repeat;
+  background: url("/images/header-bg.png") center/cover no-repeat;
   height: 550px;
   color: #f6fff0;
+  animation: fade-img-one 20s ease infinite 5s;
 
   @media (min-width: 765px) {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
+    background: linear-gradient(
+        0deg,
+        rgba(18, 18, 18, 0.6),
+        rgba(18, 18, 18, 0.6)
+      ),
       url("/images/header-bg.png") center/cover no-repeat;
     height: 703px;
     max-height: 705px;
-    animation: fade-img-one 20s ease forwards infinite 5s;
   }
 `;
 

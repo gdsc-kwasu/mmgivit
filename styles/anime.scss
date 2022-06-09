@@ -1,49 +1,65 @@
 @keyframes fade-img-one {
   0% {
-    opacity: 0.8;
-    background: url("/images/hero-imgs/3.JPG") center/cover no-repeat;
-  }
-  15% {
-    opacity: 0.8;
+    opacity: 0.9;
     background: linear-gradient(
         0deg,
-        rgba(18, 18, 18, 0.8),
-        rgba(18, 18, 18, 0.8)
+        rgba(18, 18, 18, 0.1),
+        rgba(18, 18, 18, 0.1)
       ),
-      url("/images/hero-imgs/2.png") center/cover no-repeat;
+      url("/images/hero-imgs/3.JPG") center/cover no-repeat;
   }
   25% {
     opacity: 0.8;
-    background: url("/images/hero-imgs/4.JPG") center/cover no-repeat;
-  }
-  50% {
-    opacity: 0.9;
     background: linear-gradient(
         0deg,
-        rgba(18, 18, 18, 0.8),
-        rgba(18, 18, 18, 0.8)
+        rgba(18, 18, 18, 0.4),
+        rgba(18, 18, 18, 0.3)
+      ),
+      url("/images/hero-imgs/2.jpg") center/cover no-repeat;
+  }
+  45% {
+    opacity: 0.6;
+    background: linear-gradient(
+        0deg,
+        rgba(18, 18, 18, 0.3),
+        rgba(18, 18, 18, 0.3)
+      ),
+      url("/images/hero-imgs/4.JPG") center/cover no-repeat;
+  }
+  65% {
+    opacity: 0.8;
+    background: linear-gradient(
+        0deg,
+        rgba(18, 18, 18, 0.5),
+        rgba(18, 18, 18, 0.5)
       ),
       url("/images/hero-imgs/6.jpg") center/cover no-repeat;
   }
-  65% {
-    opacity: 1;
+  85% {
+    opacity: 0.6;
     background: linear-gradient(
         0deg,
-        rgba(18, 18, 18, 0.8),
-        rgba(18, 18, 18, 0.8)
+        rgba(18, 18, 18, 0.4),
+        rgba(18, 18, 18, 0.4)
       ),
       url("/images/hero-imgs/7.jpg") center/cover no-repeat;
   }
-  75% {
-    opacity: 0.9;
-    background: url("/images/hero-imgs/8.jpg") center/cover no-repeat;
-  }
-  88% {
-    opacity: 1;
-    background: url("/images/hero-imgs/9.jpg") center/cover no-repeat;
+  95% {
+    opacity: 0.8;
+    background: linear-gradient(
+        0deg,
+        rgba(18, 18, 18, 0.4),
+        rgba(18, 18, 18, 0.4)
+      ),
+      url("/images/hero-imgs/8.jpg") center/cover no-repeat;
   }
   100% {
-    opacity: 0.8;
-    background: url("/images/hero-imgs/10.jpg") center/cover no-repeat;
+    opacity: 1;
+    background: linear-gradient(
+        0deg,
+        rgba(18, 18, 18, 0.6),
+        rgba(18, 18, 18, 0.6)
+      ),
+      url("/images/hero-imgs/9.jpg") center/cover no-repeat;
   }
 }
