@@ -1,8 +1,7 @@
 export const NAV_ITEMS = [
-  { name: "Blog", path: "/" },
-  { name: "Fundraising initiatives", path: "/" },
-  { name: "Partners & donors", path: "/" },
-  { name: "Researcher", path: "/" },
+  { name: "Donate now", path: "/" },
+  { name: "Join", path: "/" },
+  { name: "About us", path: "#about-us" },
 ];
 
 export const MISSION_SECTION_ITEMS = [

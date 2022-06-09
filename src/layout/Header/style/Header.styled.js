@@ -6,14 +6,11 @@ export const HeaderContainer = styled.header`
   color: #f6fff0;
 
   @media (min-width: 765px) {
-    background: linear-gradient(
-        0deg,
-        rgba(18, 18, 18, 0.6),
-        rgba(18, 18, 18, 0.6)
-      ),
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
       url("/images/header-bg.png") center/cover no-repeat;
     height: 703px;
     max-height: 705px;
+    animation: fade-img-one 20s ease forwards infinite 5s;
   }
 `;
 
