@@ -42,7 +42,7 @@ export const Article = styled.article`
     text-align: center;
   }
 
-  a {
+  .see-more {
     color: #6d6d6d;
     text-align: right;
     display: block;

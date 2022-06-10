@@ -1,11 +1,26 @@
 import Image from "next/image";
 import React from "react";
-import Link from "next/link";
 import { Article } from "./style/Work.styled";
 import { ARTICLES_ITEMS } from "@utils/constants";
 import { Fade } from "react-awesome-reveal";
+import Modal from "./components/Modal";
 
 const Work = () => {
+  const [modals, setModal] = React.useState(ARTICLES_ITEMS);
+
+  const openModal = (indexOfModals) => {
+    setModal(
+      modals.map((modal, index) => {
+        if (index !== indexOfModals) {
+          modal.open = modal.open;
+        } else {
+          modal.open = !modal.open;
+        }
+        return modal;
+      })
+    );
+  };
+
   return (
     <div>
       <Fade cascade direction="up" triggerOnce>
@@ -27,9 +42,10 @@ const Work = () => {
               <div className="article-content">
                 <span className="article-label">{article.label}</span>
                 <h3 className="article-title">{article.title}</h3>
-                <Link href={article.linkPath} passHref>
-                  <a>{article.link}</a>
-                </Link>
+                <p className="see-more" onClick={() => openModal(index)}>
+                  {article.link}
+                </p>
+                <Modal modal={ARTICLES_ITEMS} openModal={openModal} />
               </div>
             </div>
           ))}
