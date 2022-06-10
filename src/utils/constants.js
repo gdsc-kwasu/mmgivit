@@ -37,23 +37,37 @@ export const CAMPAIGN_CONTENTS_ITEMS = [
 export const ARTICLES_ITEMS = [
   {
     image: "/images/article1.png",
-    title: "Primary Education for the Less Privilege",
+    title: "Education and Career Counseling Day",
     label: "Education",
-    link: "See More",
+    link: "read this",
     linkPath: "#",
   },
   {
     image: "/images/article2.png",
-    title: "Proving Cloth and Food to the Less Privilege",
+    title: "Annual Charity (Redistribution of wealth) Day",
     label: "Health",
-    link: "See More",
+    link: "read this",
     linkPath: "#",
   },
   {
     image: "/images/article3.png",
-    title: "Creating Strong Community",
+    title: "Advocacy Sessions with Community Development Associations",
     label: "Community",
-    link: "See More",
+    link: "read this",
+    linkPath: "#",
+  },
+  {
+    image: "/images/article3.png",
+    title: "Health Awareness Programs",
+    label: "Community",
+    link: "read this",
+    linkPath: "#",
+  },
+  {
+    image: "/images/article3.png",
+    title: "Poetry Competition for Seconadry Schools",
+    label: "Community",
+    link: "read this",
     linkPath: "#",
   },
 ];

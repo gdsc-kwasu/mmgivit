@@ -6,6 +6,10 @@ export const HeaderContainer = styled.header`
   color: #f6fff0;
   animation: fade-img-one 20s ease infinite 5s;
 
+  @media only screen and (min-width: 0px) and (max-width: 576px) {
+    height: 100vh;
+  }
+
   @media (min-width: 765px) {
     background: linear-gradient(
         0deg,
