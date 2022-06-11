@@ -1,6 +1,6 @@
+@import "/styles/anime.scss";
+
 .root {
-  animation: close-modal 0.4s ease-in forwards;
-  transition: all ease-in 0.4s;
   display: none;
 }
 
@@ -9,11 +9,11 @@
   left: 0;
   z-index: 5;
   width: 600px;
-  height: 360px;
+  height: 390px;
   position: fixed;
   margin-left: 30%;
   margin-top: 140px;
-  padding: 40px 45px;
+  padding: 20px 45px;
   border-radius: 18px;
   background: var(--secondary-color);
   transition: all ease-in 0.4s;
@@ -33,11 +33,12 @@
 
   h1 {
     height: 50px;
+    margin-bottom: 10px;
   }
 
   p {
     line-height: 25px;
-    padding: 16px 0;
+    padding: 8px 0;
   }
 
   @media only screen and (min-width: 0px) and (max-width: 320px) {

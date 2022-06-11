@@ -15,12 +15,9 @@ const Modal = ({ articles, openModal }) => {
           >
             <div onClick={() => openModal(!index)}>X</div>
             <h1>{modal.title}</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
-              laudantium deleniti numquam optio cupiditate, fuga tenetur
-              reprehenderit accusamus consectetur eum assumenda eveniet nisi
-              modi ipsam minima dolorem distinctio, ratione iste.
-            </p>
+            <p>{modal.more && modal.more.paragOne}</p>
+            <p>{modal.more && modal.more.paragTwo}</p>
+            <p>{modal.more && modal.more.paragThree}</p>
           </div>
         );
       })}
