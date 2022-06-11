@@ -115,7 +115,7 @@ export const CampaignContainer = styled.div`
     }
   }
 
-  @media only screen and (min-width: 576px) and (max-width: 992px) {
+  @media only screen and (min-width: 576px) and (max-width: 768px) {
     .campaign-intro {
       text-align: center;
 
@@ -134,7 +134,7 @@ export const CampaignContainer = styled.div`
     }
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .campaign-intro {
       text-align: center;
 

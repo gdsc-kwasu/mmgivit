@@ -28,6 +28,7 @@ const Work = () => {
         <p className="description-para"></p>
       </Fade>
       <Article>
+        <Modal articles={ARTICLES_ITEMS} openModal={openModal} />
         <Fade direction="up" cascade triggerOnce>
           {ARTICLES_ITEMS.map((article, index) => (
             <div key={index} className="article-card">
@@ -45,7 +46,6 @@ const Work = () => {
                 <p className="see-more" onClick={() => openModal(index)}>
                   {article.link}
                 </p>
-                <Modal modal={ARTICLES_ITEMS} openModal={openModal} />
               </div>
             </div>
           ))}

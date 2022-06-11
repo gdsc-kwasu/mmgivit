@@ -1,16 +1,96 @@
 .root {
+  animation: close-modal 0.4s ease-in forwards;
+  transition: all ease-in 0.4s;
   display: none;
 }
 
 .activeModal {
-  position: absolute;
   top: 0;
   left: 0;
   z-index: 5;
-  border: 1px solid red;
-  height: 300px;
   width: 600px;
-  border-radius: 10px;
-  background: ghostwhite;
-  box-shadow: 1px 5px 3px rgba(0, 0, 0, 0.03);
+  height: 360px;
+  position: fixed;
+  margin-left: 30%;
+  margin-top: 140px;
+  padding: 40px 45px;
+  border-radius: 18px;
+  background: var(--secondary-color);
+  transition: all ease-in 0.4s;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
+  animation: open-modal 0.4s ease-in forwards;
+
+  div {
+    text-align: right;
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  h1 {
+    height: 50px;
+  }
+
+  p {
+    line-height: 25px;
+    padding: 16px 0;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 320px) {
+    margin: 70px 7px 10px 10px;
+    width: 96%;
+    padding: 10px 18px;
+
+    h1 {
+      font-size: 18px;
+    }
+
+    div {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 380px) {
+    top: 600;
+    margin: 70px 10px 10px 10px;
+    width: 96%;
+    padding: 20px 18px;
+
+    h1 {
+      font-size: 20px;
+    }
+
+    div {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 381px) and (max-width: 576px) {
+    top: 600;
+    margin: 70px 10px 10px 10px;
+    width: 96%;
+    padding: 20px 18px;
+
+    h1 {
+      font-size: 20px;
+    }
+
+    div {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 768px) {
+    top: 600;
+    margin-left: 87px;
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    margin-top: 400px;
+    margin-left: 210px;
+  }
 }

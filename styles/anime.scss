@@ -63,3 +63,51 @@
       url("/images/hero-imgs/9.jpg") center/cover no-repeat;
   }
 }
+
+// modal micro int
+
+@keyframes open-modal {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.2;
+  }
+  25% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.02);
+  }
+  75% {
+    opacity: 0.8;
+    transform: scale(1.03);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+}
+
+@keyframes close-modal {
+  0% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+  25% {
+    opacity: 0.8;
+    transform: scale(1.03);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.02);
+  }
+  75% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.2;
+    transform: scale(0.6);
+  }
+}

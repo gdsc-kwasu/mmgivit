@@ -47,6 +47,10 @@ export const Article = styled.article`
     text-align: right;
     display: block;
     text-decoration: underline;
+
+    :hover {
+      cursor: pointer;
+    }
   }
 
   @media only screen and (min-width: 0px) and (max-width: 320px) {

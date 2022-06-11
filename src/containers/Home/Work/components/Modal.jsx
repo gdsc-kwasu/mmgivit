@@ -2,15 +2,18 @@ import React from "react";
 import propTypes from "prop-types";
 import modalStyle from "../style/modal.module.scss";
 
-const Modal = ({ modal, openModal }) => {
+const Modal = ({ articles, openModal }) => {
   return (
     <React.Fragment>
-      {modal.map((modal, index) => {
+      {articles.map((modal, index) => {
         return (
           <div
-            className={modal ? modalStyle.root : modalStyle.activeModal}
+            className={`${
+              !modal.open ? `${modalStyle.activeModal}` : `${modalStyle.root}`
+            }`}
             onClick={() => openModal(index)}
           >
+            <div onClick={() => openModal(!index)}>X</div>
             <h1>{modal.title}</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
