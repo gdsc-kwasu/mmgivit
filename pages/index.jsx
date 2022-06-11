@@ -13,12 +13,12 @@ export default function Home() {
           content="MMGIVIT is dedicated to the entrenchment of the culture of charity as a means of uplifting the less privileged by redistributing wealth, engaging in charity and charitable acts and promoting ideas of giving. sharing and kindness in the society irrespective of religious, ethnic and/or political considerations."
         />
         {/* Google's meta */}
-        <meta itemprop="name" content="MMGIVIT CYVC KWASU" />
+        <meta itemProp="name" content="MMGIVIT CYVC KWASU" />
         <meta
-          itemprop="description"
+          itemProp="description"
           content="dedicated to the entrenchment of the culture of charity as a means of uplifting the less privileged by redistributing wealth, engaging in charity and charitable acts and promoting ideas of giving. sharing and kindness in the society irrespective of religious, ethnic and/or political considerations."
         />
-        <meta itemprop="image" content="#" />
+        <meta itemProp="image" content="#" />
         {/* Facebook's meta */}
         <meta property="og:url" content="https://mmgivit.netlify.app" />
         <meta property="og:type" content="website" />
