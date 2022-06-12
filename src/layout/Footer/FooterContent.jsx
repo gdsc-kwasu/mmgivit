@@ -6,12 +6,9 @@ const FooterContent = () => {
   return (
     <FooterContentSection>
       <div className="content">
-        <h3>About mmgivit</h3>
+        <h3>About MMGIVIT</h3>
         <Link href="#" passHref>
           <a>What we believe</a>
-        </Link>
-        <Link href="#" passHref>
-          <a>How we fight inequality to beat poverty</a>
         </Link>
         <Link href="#" passHref>
           <a>How we are organized</a>
@@ -19,17 +16,24 @@ const FooterContent = () => {
         <Link href="#" passHref>
           <a>Our history</a>
         </Link>
+      </div>
+
+      <div className="content">
+        <h3>Possible Areas of Collaboration</h3>
         <Link href="#" passHref>
-          <a>Our finances and accountability</a>
+          <a>Scholarships and Students Sponsorship</a>
         </Link>
         <Link href="#" passHref>
-          <a>Our commitment to safeguarding</a>
+          <a>Vulnerable children access to Education</a>
         </Link>
         <Link href="#" passHref>
-          <a>Frequently Asked Questions</a>
+          <a>Donation of educational materials</a>
         </Link>
         <Link href="#" passHref>
-          <a>Scam warning</a>
+          <a>Collaborative synergy in charity</a>
+        </Link>
+        <Link href="#" passHref>
+          <a>Provision of Medical kits</a>
         </Link>
       </div>
 
