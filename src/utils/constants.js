@@ -5,8 +5,16 @@ export const NAV_ITEMS = [
 ];
 
 export const MISSION_SECTION_ITEMS = [
-  { image: "/images/img-1.png", text: "Our Work" },
-  { image: "/images/img-2.png", text: "Become a Volunteer" },
+  {
+    image: "/images/img-1.png",
+    text: "Our Work",
+    seeMore: "https://www.youtube.com/channel/UCdyYrQGmQOsRBGWRl79FIdw",
+  },
+  {
+    image: "/images/img-2.png",
+    text: "Become a Volunteer",
+    seeMore: "https://forms.gle/b1KS8vDcP3yuwhZLA",
+  },
   { image: "/images/img-3.png", text: "Donate" },
 ];
 

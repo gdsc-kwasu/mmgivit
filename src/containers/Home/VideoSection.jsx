@@ -1,5 +1,6 @@
 import { VidContainer } from "./style/Video.styled";
 import { Fade } from "react-awesome-reveal";
+import Youtube from "@components/Youtube";
 
 const VideoSection = () => {
   return (
@@ -22,7 +23,9 @@ const VideoSection = () => {
       </div>
       <div className="video-container">
         <Fade direction="up" triggerOnce>
-          <div className="video">video here</div>
+          <div className="video">
+            <Youtube video="o5lXYctysFg" />
+          </div>
         </Fade>
       </div>
     </VidContainer>

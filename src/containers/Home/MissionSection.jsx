@@ -8,11 +8,13 @@ const MissionSection = () => {
     <MissionContent>
       <Fade cascade triggerOnce direction="up">
         {MISSION_SECTION_ITEMS.map((items, index) => (
-          <Link key={index} href="#" passHref>
-            <MissionContentItem backgroundImage={items.image}>
-              <span>{items.text}</span>
-            </MissionContentItem>
-          </Link>
+          <MissionContentItem backgroundImage={items.image} key={index}>
+            <span>
+              <a href={items.seeMore} target="__blank">
+                {items.text}
+              </a>
+            </span>
+          </MissionContentItem>
         ))}
       </Fade>
     </MissionContent>
