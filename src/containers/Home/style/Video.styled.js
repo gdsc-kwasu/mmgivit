@@ -14,12 +14,27 @@ export const VidContainer = styled.section`
     color: #fff;
     font-size: 1.5rem;
 
+    // .video {
+    //   width: 100%;
+    //   height: 295px;
+    //   color: #fff;
+    //   background: #f16e22e5;
+    //   font-size: 1.5rem;
+    // }
+
     .video {
-      width: 100%;
-      height: 295px;
-      color: #fff;
-      background: #f16e22e5;
-      font-size: 1.5rem;
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0;
+
+      iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+      }
     }
   }
 
@@ -50,12 +65,12 @@ export const VidContainer = styled.section`
       width: 100%;
     }
 
-    .video-container {
-      .video {
-        height: 200px;
-        width: 300px;
-      }
-    }
+    // .video-container {
+    //   .video {
+    //     height: 200px;
+    //     width: 300px;
+    //   }
+    // }
   }
 
   @media only screen and (min-width: 320px) and (max-width: 576px) {
@@ -65,12 +80,12 @@ export const VidContainer = styled.section`
       width: 100%;
     }
 
-    .video-container {
-      .video {
-        height: 200px;
-        width: 100%;
-      }
-    }
+    // .video-container {
+    //   .video {
+    //     height: 200px;
+    //     width: 100%;
+    //   }
+    // }
   }
 
   @media only screen and (min-width: 576px) and (max-width: 992px) {
