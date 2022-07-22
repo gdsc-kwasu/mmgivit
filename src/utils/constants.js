@@ -1,6 +1,6 @@
 export const NAV_ITEMS = [
   { name: "Donate now", path: "/" },
-  { name: "Join", path: "/" },
+  { name: "Join", path: "https://forms.gle/b1KS8vDcP3yuwhZLA" },
   { name: "About us", path: "#about-us" },
 ];
 

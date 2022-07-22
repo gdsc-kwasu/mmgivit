@@ -20,14 +20,6 @@ const FooterContent = () => {
         <p>Provision of Medical kits</p>
       </div>
       <div className="content">
-        <h3>Issues we work on</h3>
-        <p>Conflicts and disasters</p>
-        <p>Extreme inequality and essential services</p>
-        <p>Food, climate and natural resources</p>
-        <p>Gender justice and women’s rights</p>
-        <p>Water and sanitation</p>
-      </div>
-      <div className="content">
         <h3>Support Our Work</h3>
         <p>Donate now</p>
         <p>Aid us</p>

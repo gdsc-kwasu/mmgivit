@@ -12,7 +12,6 @@ const Home = () => {
       <Campaign />
       <VideoSection />
       <Work />
-      <NewsLetter />
     </React.Fragment>
   );
 };

@@ -4,7 +4,6 @@ import Link from "next/link";
 
 import { NavContainer } from "./style/Header.styled";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { FiSearch } from "react-icons/fi";
 import { NAV_ITEMS } from "@utils/constants";
 import menuStyles from "./style/mobileMenu.module.scss";
 import { Menu } from "./Menu";

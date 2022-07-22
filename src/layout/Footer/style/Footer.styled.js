@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.footer`
   height: 100%;
   width: 80%;
-  margin: 2.5rem auto;
+  margin: 4.9rem auto;
 
   p {
     text-align: center;
@@ -29,13 +29,15 @@ export const FooterContentSection = styled.section`
     font-weight: 600;
   }
 
-  a {
+  p {
     color: #6d6d6d;
     margin-bottom: 0.75rem;
     font-size: 0.875rem;
+    text-align: left;
     display: block;
   }
 `;
+
 export const FooterNavContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
