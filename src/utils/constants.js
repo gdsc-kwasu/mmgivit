@@ -45,9 +45,9 @@ export const ARTICLES_ITEMS = [
     link: "see more",
     more: {
       paragOne:
-        "The youth need all the guidance they can get as they make critical decisions that influence their future. At MMGIVIT, we organise annual career and counselling for secondary school students with the aim of increasing awareness of career options. ",
+        "The youths need all the guidance they can get as they make critical decisions that influence their future. At MMGIVIT, we organise annual career and counselling for secondary school students with the aim of increasing awareness of career options. ",
       paragTwo:
-        "This is one of our mandate to provide guidance to tomorrow's future. It is another way of giving back to society.",
+        "This is one of our mandates to provide guidance to tomorrow's future. It is another way of giving back to society.",
     },
     open: "false",
   },

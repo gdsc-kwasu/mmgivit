@@ -12,16 +12,19 @@ const FooterNav = () => {
     <FooterNavContainer>
       <div className="wrapper">
         <div>
-          <Link href="/" passHref>
+          <Link href="https://twitter.com/MMGiViT" passHref>
             <ImTwitter className="social-icons" />
           </Link>
-          <Link href="/" passHref>
+          <Link href="https://web.facebook.com/MMgivit/" passHref>
             <ImFacebook className="social-icons" />
           </Link>
-          <Link href="/" passHref>
+          <Link href="https://www.instagram.com/mmgivit_charity/" passHref>
             <ImInstagram className="social-icons" />
           </Link>
-          <Link href="/" passHref>
+          <Link
+            href="https://www.youtube.com/channel/UCdyYrQGmQOsRBGWRl79FIdw"
+            passHref
+          >
             <ImYoutube className="social-icons" />
           </Link>
         </div>

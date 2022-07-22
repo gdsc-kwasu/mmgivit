@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <Head>
-        <title> MMGIVIT CYVC KWASU</title>
+        <title> MMGIVIT Initiative</title>
         <meta
           name="description"
           content="MMGIVIT is dedicated to the entrenchment of the culture of charity as a means of uplifting the less privileged by redistributing wealth, engaging in charity and charitable acts and promoting ideas of giving. sharing and kindness in the society irrespective of religious, ethnic and/or political considerations."

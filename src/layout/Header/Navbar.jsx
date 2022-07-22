@@ -57,9 +57,6 @@ const Navbar = () => {
         <button className="btn btn-menu" onClick={() => setOpen(!false)}>
           <GiHamburgerMenu className="mm" />
         </button>
-        <button className="btn btn-search">
-          <FiSearch />
-        </button>
       </NavContainer>
       {mobileMenu}
     </React.Fragment>

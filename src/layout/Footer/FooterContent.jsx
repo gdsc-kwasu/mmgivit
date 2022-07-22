@@ -7,68 +7,35 @@ const FooterContent = () => {
     <FooterContentSection>
       <div className="content">
         <h3>About MMGIVIT</h3>
-        <Link href="#" passHref>
-          <a>What we believe</a>
-        </Link>
-        <Link href="#" passHref>
-          <a>How we are organized</a>
-        </Link>
-        <Link href="#" passHref>
-          <a>Our history</a>
-        </Link>
+        <p>What we believe</p>
+        <p>How we are organized</p>
+        <p>Our history</p>
       </div>
-
       <div className="content">
         <h3>Possible Areas of Collaboration</h3>
-        <Link href="#" passHref>
-          <a>Scholarships and Students Sponsorship</a>
-        </Link>
-        <Link href="#" passHref>
-          <a>Vulnerable children access to Education</a>
-        </Link>
-        <Link href="#" passHref>
-          <a>Donation of educational materials</a>
-        </Link>
-        <Link href="#" passHref>
-          <a>Collaborative synergy in charity</a>
-        </Link>
-        <Link href="#" passHref>
-          <a>Provision of Medical kits</a>
-        </Link>
+        <p>Scholarships and Students Sponsorship</p>
+        <p>Vulnerable children access to Education</p>
+        <p>Donation of educational materials</p>
+        <p>Collaborative synergy in charity</p>
+        <p>Provision of Medical kits</p>
       </div>
-
       <div className="content">
         <h3>Issues we work on</h3>
-        <Link href="#" passHref>
-          <a>Conflicts and disasters</a>
-        </Link>
-        <Link href="#" passHref>
-          <a>Extreme inequality and essential services</a>
-        </Link>
-        <Link href="#" passHref>
-          <a>Food, climate and natural resources</a>
-        </Link>
-        <Link href="#" passHref>
-          <a>Gender justice and women’s rights</a>
-        </Link>
-        <Link href="#" passHref>
-          <a>Water and sanitation</a>
-        </Link>
+        <p>Conflicts and disasters</p>
+        <p>Extreme inequality and essential services</p>
+        <p>Food, climate and natural resources</p>
+        <p>Gender justice and women’s rights</p>
+        <p>Water and sanitation</p>
       </div>
-
       <div className="content">
         <h3>Support Our Work</h3>
-        <Link href="#" passHref>
-          <a>Donate now</a>
-        </Link>
-        <Link href="#" passHref>
-          <a>Aid us</a>
-        </Link>
+        <p>Donate now</p>
+        <p>Aid us</p>
         {/* <Link href="https://forms.gle/b1KS8vDcP3yuwhZLA" passHref>
           <a href="https://forms.gle/b1KS8vDcP3yuwhZLA" target="__blank">
             Work with us
-          </a>
-        </Link> */}
+          </p>
+        */}
         <Link href="https://forms.gle/b1KS8vDcP3yuwhZLA" passHref>
           <a href="https://forms.gle/b1KS8vDcP3yuwhZLA" target="__blank">
             Volunteer with us
