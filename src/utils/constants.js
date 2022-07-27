@@ -60,9 +60,9 @@ export const ARTICLES_ITEMS = [
     open: "false",
   },
   {
-    image: "/images/article2.png",
+    image: "/images/donate.png",
     title: "Annual Charity (Redistribution of wealth) Day",
-    label: "Health",
+    label: "Wealth",
     link: "see more",
     more: {
       paragOne:
@@ -74,7 +74,7 @@ export const ARTICLES_ITEMS = [
     open: "false",
   },
   {
-    image: "/images/article3.png",
+    image: "/images/advocacy.png",
     title: "Advocacy Sessions with Community Development Associations",
     label: "Community",
     link: "see more",
@@ -87,7 +87,7 @@ export const ARTICLES_ITEMS = [
     open: "false",
   },
   {
-    image: "/images/article3.png",
+    image: "/images/Health.png",
     title: "Health Awareness Programs",
     label: "Community",
     link: "see more",
@@ -102,7 +102,7 @@ export const ARTICLES_ITEMS = [
     open: "false",
   },
   {
-    image: "/images/article3.png",
+    image: "/images/poetry.png",
     title: "Poetry Competition for Seconadry Schools",
     label: "Community",
     link: "see more",
