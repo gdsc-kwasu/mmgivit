@@ -11,8 +11,8 @@ const Mission = () => {
         </Fade>
         <Fade direction="up" triggerOnce>
           <p className="description-para">
-            To be Nigeria's foremost charity initiative in promoting charity as
-            a tool for the upliftment of the less privileged.
+            To be Nigeria&apos;s foremost charity initiative in promoting
+            charity as a tool for the upliftment of the less privileged
           </p>
         </Fade>
       </Fade>

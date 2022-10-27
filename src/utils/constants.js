@@ -22,7 +22,7 @@ export const CAMPAIGN_CONTENTS_ITEMS = [
   {
     title: "Education",
     icon: "/images/education.png",
-    text: "In the educational field we are involved in CAREER AND COUNSELLING of majorly teens and youths and also, we organize ANNUAL POETRY COMPETITIONS for Senior and Junior Secondary Students.",
+    text: "In the field of education, we are involved in CAREER AND COUNSELLING of teens and youths. We also organise ANNUAL POETRY COMPETITIONS for Senior and Junior Secondary Students.",
     link: "Support us",
     linkPath: "#",
     open: "false",
@@ -30,7 +30,7 @@ export const CAMPAIGN_CONTENTS_ITEMS = [
   {
     title: "Health",
     icon: "/images/health.png",
-    text: "We engage annually in HEALTH AWARENESS, for the benefit of the less privileged. Specific tests are made available for free.",
+    text: "We engage annually in HEALTH AWARENESS for the benefit of the less privileged. Specific tests are made available for free.",
     link: "Aid us",
     linkPath: "#",
     open: "false",
@@ -48,7 +48,7 @@ export const CAMPAIGN_CONTENTS_ITEMS = [
 export const ARTICLES_ITEMS = [
   {
     image: "/images/article1.png",
-    title: "Education and Career Counseling Day",
+    title: "Education and Career Counselling Day",
     label: "Education",
     link: "see more",
     more: {
@@ -68,7 +68,7 @@ export const ARTICLES_ITEMS = [
       paragOne:
         "Our Wealth Redistribution Day is a day to share items of use to the less privileged.",
       paragTwo:
-        "Our strategy is quite novel: we encourage people to donate items they have little or no further use of. These items are then made available to the less privileged who get to choose from the array of clothing, household items, office equipment, and other stuff that are still in good/usable condition.",
+        "Our strategy is quite novel, we encourage people to donate items they have little or no further use of. These items are then made available to the less privileged who get to choose from the array of clothing, household items, office equipment, and other stuff that are still in good/usable condition.",
       paragThree: "The redistribution takes place once a year in January.",
     },
     open: "false",
@@ -88,7 +88,7 @@ export const ARTICLES_ITEMS = [
   },
   {
     image: "/images/Health.png",
-    title: "Health Awareness Programs",
+    title: "Health Awareness Programmes",
     label: "Community",
     link: "see more",
     more: {
@@ -108,9 +108,9 @@ export const ARTICLES_ITEMS = [
     link: "see more",
     more: {
       paragOne:
-        "In furtherance of its goal to assist the less privileged whilst rewarding excellence with prizes, the MMGIVIT Charity Initiative organises annual poetry event for Senior and Junior Secondary schools in Kwara State. ",
+        "In furtherance of its goal to assist the less privileged whilst rewarding excellence with prizes, the MMGIVIT Charity Initiative organises annual poetry events for Senior and Junior Secondary schools in Kwara State. ",
       paragTwo:
-        "The call for entry comes out in July of every year and the final of the competition takes place in the following year in the month of January.",
+        "The call for entries comes out in July of every year and the final of the competition takes place in the following year in the month of January.",
       paragThree:
         "This competition is to bring back creativity in our youth while promoting the values of charity among them.",
     },

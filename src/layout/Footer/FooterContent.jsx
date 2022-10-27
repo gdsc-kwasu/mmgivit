@@ -8,15 +8,15 @@ const FooterContent = () => {
       <div className="content">
         <h3>About MMGIVIT</h3>
         <p>What we believe</p>
-        <p>How we are organized</p>
+        <p>How we are organised</p>
         <p>Our history</p>
       </div>
       <div className="content">
         <h3>Possible Areas of Collaboration</h3>
         <p>Scholarships and Students Sponsorship</p>
-        <p>Vulnerable children access to Education</p>
-        <p>Donation of educational materials</p>
-        <p>Collaborative synergy in charity</p>
+        <p>Access to Education for Vulnerable Children</p>
+        <p>Donation of Educational Materials</p>
+        <p>Collaborative Synergy in Charity</p>
         <p>Provision of Medical kits</p>
       </div>
       <div className="content">

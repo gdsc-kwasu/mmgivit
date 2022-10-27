@@ -12,7 +12,7 @@ const Campaign = () => {
         <p className="description-para">
           We are dedicated to the entrenchment of the culture of charity as a
           means of uplifting the less privileged by redistributing wealth,
-          engaging in charity and charitable acts and promoting ideas of giving.
+          engaging in charity and charitable acts and promoting ideas of giving,
           sharing and kindness in the society irrespective of religious, ethnic
           and/or political considerations.
         </p>
